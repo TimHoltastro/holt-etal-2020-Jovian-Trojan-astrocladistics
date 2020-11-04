@@ -10,22 +10,22 @@ File type: csv
 Name: JTCluster-Lx-name-#.csv. Lx indicates the swarm, L4 or L5. Name indicates the superclan (Greater), clan or subclan(Sub) identified. # is the number of objects in the cluster. 
 e.g. JTCluster-L4-Eurybates-16.csv shows the dispersal velocities for the Eurybates clan, in the L4 swarm, which has 16 members. 
 
-D
+D:
 Diameter of the object. From NASA-JPL HORIZONS Solar
 System Dynamics Database https://ssd.jpl.nasa.gov/
 Giorgini et al. (1996). Where not available, generated from H magnitude and
 mean geometric albedo (0.075).
 Units:km
 
-dV_ref
+dV_ref:
 Dispersal velocity to the reference object (largest object in the cluster). Claculated using reverse Gause equations (Zappala et al., 1996) also see Holt et al. (2018, 2020)
 Units: ms^-1
 
-dV_cent
+dV_cent:
 Dispersal velocity to the mean of the cluster parameter space. Calculated using reverse Gauss equations (Zappala et al., 1996) also see Holt et al. (2018)
 Units: ms^-1
 
-F_esc
+F_esc:
 Fraction of clones that escape the Jovian Trojan swarms. From Holt et al. (2020). 
 
 
