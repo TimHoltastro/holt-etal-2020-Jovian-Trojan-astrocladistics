@@ -6,10 +6,17 @@ This data set is associate with Holt et al. (2021) 'Astrocladistics of the Jovia
 The Jovian Trojans are two swarms of small objects that share Jupiter's orbit, clustered around the leading and trailing Lagrange points, L_4 and L_5. In this work, we investigate the Jovian Trojan population using the technique of astrocladistics, an adaptation of the ``tree of life'' approach used in biology. We combine colour data from WISE, SDSS, Gaia DR2 and MOVIS surveys with knowledge of the physical and orbital characteristics of the Trojans, to generate a classification tree composed of clans with distinctive characteristics. We identify 48 clans, indicating groups of objects that likely share a common origin. Amongst these are several that reflect the known collisional families, though our work identifies subtleties in that classification that bear future investigation. Our clans are often broken into subclans, and most can be grouped into 10 superclans, reflecting the hierarchical nature of the population.  Outcomes from this project include the identification of several high priority objects for additional observations and as well as providing context for the objects to be visited by the forthcoming \textit{Lucy} mission. Our results demonstrate the ability of astrocladistics to classify multiple large and heterogeneous composite survey datasets into groupings useful for studies of the origins and evolution of our Solar system
 
 ---------- Program descriptions---------- 
+CladisticsBins1.5.py - A python 3 program used to bin the data matricies, in preparation for astrocladistical analysis.
 
+JTDispersalVelocity083.py - A python 3 program used to claculated the dispersal velocities within each of the superclans (Greater), clans and subclans (Sub) discovered in Holt et al (2021). Based on the reverse Gauss equations (Zappala et al., 1996).
 
 
 ---------- Dataset descriptions---------- 
+-Nexus files
+These files are used in cladistical software, such as Mestique (Maddison & Maddison, 2017). These files include the binned matricies (Matrix-Subset-X-binned.csv) in the base files (JovTrojanSub_L4.nex & JovTrojanSub_L5.nex), as well as the process files (JovTrojanSub_L4_trees.nex & JovTrojanSub_L5_trees.nex) that include a tree block 10,000 most parsimonus trees, from TnT1.5 (Goloboff, et al. 2008, 2015), and the consensus tree (Trees/SubMatrixWiseSDSSGaiaMovis-L5-Conserv.pdf & Trees/SubMatrixWiseSDSSGaiaMovis-L5-Conserv.pdf) 
+
+-SubSetClanlistChecked.pkl
+A Python 3 plickled dictionary of the superclans, clans and subclans, with lists of the object asteroid numbers. 
 
 -------Dispersal Velocity-------
 A set of dispersal velocities based on the superclans (Greater), clans and subclans (Sub) identified in Holt et al. 2021. Program availalbe the asosciated Github repository: https://github.com/TimHoltastro/holt-etal-2021-Jovian-Trojan-astrocladistics.git .  Claculated using reverse Gause equations (Zappala et al., 1996)
@@ -53,5 +60,7 @@ Goloboff, P. A., Farris, J. S., & Nixon, K. C. (2008). TNT, a free program for p
 Goloboff, P. A., & Catalano, S. A. (2016). TNT version 1.5, including a full implementation of phylogenetic morphometrics. Cladistics, 32(3), 221–238. https://doi.org/10.1111/cla.12160
 
 Holt, T.R., Horner, J., Nesvorný, D., King, R., Popescu, M., Carter, B.D. & Tylor, C.C.E. (2021) Astrocladistics of the Jovian Trojan Swarms. Submitted to Monthly Notices of the Royal Astronomical Society. 
+
+Maddison, W. P., & Maddison, D. R. (2017). Mesquite: a modular system for evolutionary analysis. Version 3.20.
 
 Zappala, V., Cellino, A., Dell’Oro, A., Migliorini, F., & Paolicchi, P. (1996). Reconstructing the Original Ejection Velocity Fields of Asteroid Families. Icarus, 124(1), 156–180. https://doi.org/10.1006/icar.1996.0196
