@@ -34,6 +34,8 @@ Fraction of clones that escape the Jovian Trojan swarms. From Holt et al. (2020)
 
 Holt, T. R., Brown, A. J., Nesvorný, D., Horner, J., & Carter, B. D. (2018). Cladistical Analysis of the Jovian and Saturnian Satellite Systems. The Astrophysical Journal, 859(2), 97. https://doi.org/10.3847/1538-4357/aabe2c
 
+Holt, T. R., Nesvorný, D., Horner, J., King, R., Marschall, R., Kamrowski, M., … Tylor, C. (2020). Stability of Jovian Trojans and their collisional families. Monthly Notices of the Royal Astronomical Society, 495(4), 4085–4097. https://doi.org/10.1093/mnras/staa1348
+
 Holt, T.R., Horner, J., Nesvorný, D., King, R., Popescu, M., Carter, B.D. & Tylor, C.C.E. (2021) Astrocladistics of the Jovian Trojan Swarms. Submitted to Monthly Notices of the Royal Astronomical Society. 
 
 Zappala, V., Cellino, A., Dell’Oro, A., Migliorini, F., & Paolicchi, P. (1996). Reconstructing the Original Ejection Velocity Fields of Asteroid Families. Icarus, 124(1), 156–180. https://doi.org/10.1006/icar.1996.0196
