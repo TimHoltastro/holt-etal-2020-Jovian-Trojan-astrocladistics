@@ -1,0 +1,6 @@
+full_name,da_p,e_p,sini_p,MeanLib,LibRange,albedo,W1Alb,W2Alb,g_mag-mean,(b - v),(u - g),(g - r),(r - i),(i - z),(Y - J),(J - Ks),(H - Ks),L,GreaterClan,Clan,SubClan,tax_c,Tax_ref
+  3063 Makhaon (1983 PV),0.0607,0.0558,0.2338,2.13174113203479,28.365797809657305,0.055999999999999994,0.128,0.114,16.2286740141627,0.690000000000001,1.535,0.475,0.25,0.105,?,?,?,4,GreaterTelamon,Theoklymenos,MakhaonSub,D,Lazzaro2004
+ 16974 (1998 WR21),0.049,0.0574,0.2766,0.9650986944258341,20.590014026865106,0.065,0.126,0.088,17.8248921245896,?,?,?,?,?,?,?,?,4,GreaterTelamon,Theoklymenos,MakhaonSub,,
+ 17351 Pheidippos (1973 SV),0.0473,0.0546,0.2681,0.951696111121798,22.372853292366198,0.071,0.128,0.128,?,?,?,?,?,?,?,?,?,4,GreaterTelamon,Theoklymenos,MakhaonSub,,
+ 24390 (2000 AD177),0.052000000000000005,0.0475,0.2031,1.00054053672746,19.6584693133512,0.069,0.138,0.138,?,?,?,?,?,?,?,?,?,4,GreaterTelamon,Theoklymenos,MakhaonSub,D,Fornasier2007
+204911 (2008 QE5),0.0584,0.0528,0.2534,2.06359076576435,28.317035356307894,0.07,?,?,?,?,?,?,?,?,0.265557,0.522048,?,4,GreaterTelamon,Theoklymenos,MakhaonSub,,
